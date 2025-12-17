@@ -98,6 +98,55 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Image Showcase Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="relative rounded-xl overflow-hidden shadow-xl group h-72">
+              <img
+                src="https://images.unsplash.com/photo-1536099629323-44806c1ea264"
+                alt="Modern Infrastructure"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-1">Modern Infrastructure</h3>
+                  <p className="text-white/80 text-sm">Building roads for the future</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative rounded-xl overflow-hidden shadow-xl group h-72">
+              <img
+                src="https://images.unsplash.com/photo-1534097575056-ddba81f714c8"
+                alt="Construction Excellence"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/70 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-1">Expert Construction</h3>
+                  <p className="text-white/80 text-sm">Quality in every project</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative rounded-xl overflow-hidden shadow-xl group h-72">
+              <img
+                src="https://images.unsplash.com/photo-1529854140025-25995121f16f"
+                alt="Sustainable Innovation"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-1">Sustainable Solutions</h3>
+                  <p className="text-white/80 text-sm">Environment-friendly technology</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
