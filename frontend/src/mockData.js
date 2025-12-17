@@ -109,9 +109,9 @@ export const teamMembers = [
 ];
 
 export const stats = [
-  { label: "Kilometers Built", value: "85+", icon: "Route" },
-  { label: "Plastic Recycled", value: "425 Tons", icon: "Recycle" },
-  { label: "Projects Completed", value: "12", icon: "CheckCircle" },
+  { label: "Kilometers Built", value: "8", icon: "Route" },
+  { label: "Plastic Recycled", value: "40 Tons", icon: "Recycle" },
+  { label: "Projects Completed", value: "3", icon: "CheckCircle" },
   { label: "CO2 Reduced", value: "1200 Tons", icon: "TreePine" }
 ];
 
