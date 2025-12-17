@@ -41,43 +41,33 @@ export const benefits = [
 export const projects = [
   {
     id: 1,
-    name: "Mumbai-Pune Highway Extension",
+    name: "Mumbai Residential Township",
     location: "Maharashtra, India",
-    length: "25 km",
-    plasticUsed: "125 tons",
-    completedDate: "March 2024",
-    description: "Successfully completed highway extension using recycled plastic technology, improving connectivity between two major cities.",
+    length: "3 km",
+    plasticUsed: "15 tons",
+    completedDate: "February 2025",
+    description: "Our first successful project demonstrating the viability of plastic-enhanced roads in urban residential areas.",
     status: "Completed"
   },
   {
     id: 2,
-    name: "Bangalore Smart City Roads",
-    location: "Karnataka, India",
-    length: "18 km",
-    plasticUsed: "90 tons",
-    completedDate: "January 2024",
-    description: "Part of the Smart City initiative, these roads showcase the perfect blend of technology and sustainability.",
+    name: "Pune Smart City Initiative",
+    location: "Maharashtra, India",
+    length: "2.5 km",
+    plasticUsed: "12 tons",
+    completedDate: "January 2025",
+    description: "Part of the Smart City initiative, showcasing sustainable road construction technology.",
     status: "Completed"
   },
   {
     id: 3,
-    name: "Delhi NCR Township Project",
-    location: "Delhi, India",
-    length: "12 km",
-    plasticUsed: "60 tons",
+    name: "Bangalore Tech Park Road",
+    location: "Karnataka, India",
+    length: "2.5 km",
+    plasticUsed: "13 tons",
     completedDate: "Ongoing",
-    description: "Developing eco-friendly road infrastructure for a new residential township.",
+    description: "Developing eco-friendly road infrastructure connecting major tech parks in the city.",
     status: "In Progress"
-  },
-  {
-    id: 4,
-    name: "Chennai Coastal Road",
-    location: "Tamil Nadu, India",
-    length: "30 km",
-    plasticUsed: "150 tons",
-    completedDate: "May 2024",
-    description: "A landmark project demonstrating the durability of plastic roads in coastal environments.",
-    status: "Completed"
   }
 ];
 
