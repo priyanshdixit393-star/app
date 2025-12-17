@@ -110,6 +110,39 @@ const Home = () => {
             </p>
           </div>
 
+          {/* Image and Benefits Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            {/* Left Side - Image */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl h-96">
+              <img
+                src="https://images.unsplash.com/photo-1503708928676-1cb796a0891e"
+                alt="Road Construction"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Building Tomorrow's Roads</h3>
+                  <p className="text-white/90">Innovative solutions for sustainable infrastructure</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Another Image */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl h-96">
+              <img
+                src="https://images.unsplash.com/photo-1493612276216-ee3925520721"
+                alt="Innovation"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/70 to-transparent flex items-end p-8">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Powered by Innovation</h3>
+                  <p className="text-white/90">Technology that transforms waste into value</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit) => {
               const Icon = iconMap[benefit.icon];
