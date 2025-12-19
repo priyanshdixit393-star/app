@@ -231,7 +231,7 @@ const Home = () => {
                 {/* Image container */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_eco-pavement/artifacts/aq2efjcm_founder.jpg"
+                    src="/aq2efjcm_founder.jpg"
                     alt="Priyansh Dixit - Founder"
                     className="w-full h-auto object-cover"
                   />
