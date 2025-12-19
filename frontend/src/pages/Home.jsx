@@ -217,6 +217,74 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Founder Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Image */}
+            <div className="relative">
+              <div className="relative w-full max-w-md mx-auto">
+                {/* Decorative elements */}
+                <div className="absolute -top-6 -left-6 w-72 h-72 bg-emerald-100 rounded-full blur-3xl opacity-50"></div>
+                <div className="absolute -bottom-6 -right-6 w-72 h-72 bg-emerald-200 rounded-full blur-3xl opacity-50"></div>
+                
+                {/* Image container */}
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_eco-pavement/artifacts/aq2efjcm_founder.jpg"
+                    alt="Priyansh Dixit - Founder"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                
+                {/* Floating badge */}
+                <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-emerald-500 text-white px-8 py-4 rounded-full shadow-xl">
+                  <p className="font-bold text-lg">Founder & CEO</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Right Side - Content */}
+            <div>
+              <div className="mb-4">
+                <span className="inline-block px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-semibold">
+                  Meet Our Founder
+                </span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Priyansh Dixit
+              </h2>
+              <p className="text-xl text-emerald-600 font-semibold mb-6">
+                Founder & CEO, Plastix
+              </p>
+              <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
+                <p>
+                  "We don't see garbage. We see the DNA of India's next 100,000 kilometers of infrastructure."
+                </p>
+                <p>
+                  With a vision to transform India's approach to sustainable infrastructure, I founded Plastix to solve two critical challenges: plastic waste management and road construction quality.
+                </p>
+                <p>
+                  Our innovative technology doesn't just build roads—it builds a cleaner, stronger future for India. Every project we complete is a step toward our mission of engineering a pothole-free, plastic-free India.
+                </p>
+              </div>
+              <div className="mt-8 pt-8 border-t border-gray-200">
+                <div className="grid grid-cols-2 gap-6">
+                  <div>
+                    <p className="text-3xl font-bold text-emerald-600 mb-1">8 km</p>
+                    <p className="text-sm text-gray-600">Roads Built</p>
+                  </div>
+                  <div>
+                    <p className="text-3xl font-bold text-emerald-600 mb-1">40 Tons</p>
+                    <p className="text-sm text-gray-600">Plastic Recycled</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section
         className="relative py-20 overflow-hidden"
