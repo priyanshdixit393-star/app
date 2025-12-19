@@ -11,6 +11,10 @@ import Contact from "./pages/Contact";
 import { Toaster } from "./components/ui/sonner";
 
 function App() {
+  React.useEffect(() => {
+    const badge = document.querySelector('a[href*="emergent"]');
+    if (badge) badge.style.display = 'none';
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>
